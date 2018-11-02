@@ -1,3 +1,11 @@
+# IDE
+.vs
+.vscode
+.idea
+
+# Mac OS
+.DS_Store
+
 # Logs
 logs
 *.log
