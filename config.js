@@ -2,7 +2,7 @@ module.exports = {
   DB_CONNECTION_STRING: process.env.DB_CONNECTION_STRING || 'mongodb://localhost/tilnefna',
   ACCOUNT_SID: process.env.ACCOUNT_SID || '198765432',
   ACCOUNT_MOBILE: process.env.ACCOUNT_MOBILE || '982736353',
-  AUTH_TOKEN: process.env.AUTH_TOKEN || '7363738383',
+  TWILIO_AUTH_TOKEN: process.env.TWILIO_AUTH_TOKEN || '7363738383',
   WEBHOOK_TOKEN: process.env.WEBHOOK_TOKEN || '7363738383',
   ADMINISTRATOR_MOBILE: process.env.ADMINISTRATOR_MOBILE || '198765432'
 }
