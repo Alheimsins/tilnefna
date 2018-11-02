@@ -1,6 +1,7 @@
 const Router = require('router')
 const finalhandler = require('finalhandler')
 const cors = require('cors')
+const { WEBHOOK_TOKEN } = require('./config')
 
 // Utilities
 const handler = require('./lib/handler')
@@ -14,7 +15,7 @@ router.use(cors())
 // ROUTES
 router.get('/', handler.getFrontpage)
 router.post('/api/nominate', handler.nominate)
-router.post('/api/confirm', handler.confirm)
+router.post(`/api/${WEBHOOK_TOKEN}/confirm`, handler.confirm)
 
 module.exports = (request, response) => {
   router(request, response, finalhandler(request, response))

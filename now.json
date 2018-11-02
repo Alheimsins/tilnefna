@@ -1,0 +1,11 @@
+{
+  "name": "tilnefna",
+  "alias": [
+    "tilnefna.service.alheimsins.net"
+  ],
+  "type": "docker",
+  "dotenv": "production.env",
+  "features": {
+    "cloud": "v2"
+  }
+}
