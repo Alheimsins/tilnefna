@@ -13,9 +13,11 @@
     "WEBHOOK_TOKEN": "@tilnefna-webhook-token"
   },
   "builds": [
+    { "src": "README.md", "use": "@now/md"},
     { "src": "index.js", "use": "@now/node" }
   ],
   "routes": [
+    { "src": "/", "dest": "/README.html"},
     { "src": "/(.*)", "dest": "/index.js"}
   ]
 }
