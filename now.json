@@ -4,6 +4,14 @@
   "alias": [
     "tilnefna.service.alheimsins.net"
   ],
+  "env": {
+    "DB_CONNECTION_STRING": "@tilnefna-db-connection-string",
+    "ACCOUNT_SID": "@tilnefna-account-sid",
+    "ACCOUNT_MOBILE": "@tilnefna-account-mobile",
+    "TWILIO_AUTH_TOKEN": "@tilnefna-auth-token",
+    "ADMINISTRATOR_MOBILE": "@tilnefna-administrator-mobile",
+    "WEBHOOK_TOKEN": "@tilnefna-webhook-token"
+  },
   "builds": [
     { "src": "index.js", "use": "@now/node" }
   ],
