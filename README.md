@@ -23,6 +23,7 @@ $ curl http://localhost:3000/api/nominate -d '{"name": "Geir", "mobile":"87654",
 ```
 ### ```POST /api/{WEBHOOK_TOKEN}/confirm```
 
+## Setup
 
 
 # License
