@@ -21,6 +21,20 @@ Service for nominating people for something
 ```
 $ curl http://localhost:3000/api/nominate -d '{"name": "Geir", "mobile":"87654", "nomineeName":"Jonas", "nomineeMobile":"1928273"}'
 ```
+
+### ```POST /api/message```
+
+```JavaScript
+{
+  mobile: '1726347',
+  message: 'You rock!'
+}
+```
+
+```
+$ curl http://localhost:3000/api/message -d '{"mobile":"87654", "message":"You rock!"}'
+```
+
 ### ```POST /api/{WEBHOOK_TOKEN}/confirm```
 
 ## Setup

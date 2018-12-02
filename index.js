@@ -15,6 +15,7 @@ router.use(cors())
 // ROUTES
 router.get('/', handler.getFrontpage)
 router.post('/api/nominate', handler.nominate)
+router.post('/api/message', handler.message)
 router.post(`/api/${WEBHOOK_TOKEN}/confirm`, handler.confirm)
 
 module.exports = (request, response) => {
