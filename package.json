@@ -40,7 +40,7 @@
   },
   "homepage": "https://github.com/alheimsins/tilnefna#readme",
   "devDependencies": {
-    "ava": "1.4.1",
+    "ava": "2.2.0",
     "coveralls": "3.0.4",
     "husky": "2.3.0",
     "micro-dev": "3.0.0",
