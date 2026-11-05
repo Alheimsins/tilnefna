@@ -53,7 +53,7 @@
     "cors": "2.8.5",
     "finalhandler": "1.2.0",
     "joi": "17.6.0",
-    "jsonwebtoken": "8.5.1",
+    "jsonwebtoken": "9.0.0",
     "markdown-it": "12.3.2",
     "micro": "9.4.1",
     "mongojs": "3.1.0",
